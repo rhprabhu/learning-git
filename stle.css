@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.container #displayArea{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-size: 16px;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 12px;
+}
+
+.controls{
+    display: block;
+}
+
+#mybtn{
+    border: none;
+    padding: 15px;
+    background-color: blue;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+
+}
+
+#mybtn:focus{
+    outline: none;
+}
+
+#mybtn:hover{
+    background-color: aquamarine;
+}
